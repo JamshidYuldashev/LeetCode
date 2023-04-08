@@ -1,6 +1,7 @@
 package com.example.Problems;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class Problem_1748 {
     public static void main(String[] args) {
@@ -10,9 +11,21 @@ public class Problem_1748 {
 
     static class Solution {
         public int sumOfUnique(int[] nums) {
-            int ans = Arrays.stream(nums)
-                    .distinct()
-                    .sum();
+            HashMap<Integer,Integer> ms = new HashMap<>();
+            for(int i =0;i<nums.length;i++){
+                if(ms.containsKey(nums[i])){
+                    ms.put(nums[i],ms.get(nums[i])+1);
+                }
+                else{
+                    ms.put(nums[i],1);
+                }
+            }
+            int ans=0;
+            for(int i:ms.keySet()){
+                if(ms.get(i)==1){
+                    ans+=i;
+                }
+            }
             return ans;
         }
     }
