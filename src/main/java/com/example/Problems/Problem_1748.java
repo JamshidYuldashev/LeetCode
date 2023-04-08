@@ -1,6 +1,5 @@
 package com.example.Problems;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class Problem_1748 {
