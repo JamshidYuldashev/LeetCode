@@ -1,0 +1,19 @@
+package com.example.Problems;
+
+public class Problem_191 {
+    public static void main(String[] args) {
+     
+    }
+
+    static public class Solution {
+        // you need to treat n as an unsigned value
+        public int hammingWeight(int n) {
+            int ones = 0;
+            while(n!=0) {
+                ones = ones + (n & 1);
+                n = n>>>1;
+            }
+            return ones;
+        }
+    }
+}
