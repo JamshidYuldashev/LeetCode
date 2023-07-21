@@ -1,6 +1,6 @@
 package com.example.Problems;
 
-public class Problem_328_OddEvenLinkedList {
+public class Problem_328 {
     public static void main(String[] args) {
 
     }

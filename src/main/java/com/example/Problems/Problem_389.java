@@ -1,6 +1,6 @@
 package com.example.Problems;
 
-public class Problem_389_FindtheDifference {
+public class Problem_389 {
     public static void main(String[] args) {
         System.out.println(new Solution().findTheDifference("abcc", "abcde"));
     }

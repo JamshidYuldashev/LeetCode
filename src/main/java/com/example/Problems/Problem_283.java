@@ -1,6 +1,6 @@
 package com.example.Problems;
 
-public class Problem_283_MoveZeroes {
+public class Problem_283 {
     public static void main(String[] args) {
     }
     static class Solution {

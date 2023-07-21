@@ -3,7 +3,7 @@ package com.example.Problems;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Problem_438_FindAllAnagramsinaString {
+public class Problem_438 {
     public static void main(String[] args) {
 
     }

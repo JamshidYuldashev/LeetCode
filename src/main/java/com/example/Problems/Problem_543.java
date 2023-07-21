@@ -1,6 +1,6 @@
 package com.example.Problems;
 
-public class Problem_543_DiameterofBinaryTree {
+public class Problem_543 {
     public static void main(String[] args) {
 
     }

@@ -1,6 +1,6 @@
 package com.example.Problems;
 
-public class Problem_415_AddStrings {
+public class Problem_415 {
     public static void main(String[] args) {
         System.out.println(new Solution().addStrings("11", "123"));
     }

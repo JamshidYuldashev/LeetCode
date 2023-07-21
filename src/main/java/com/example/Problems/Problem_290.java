@@ -3,7 +3,7 @@ package com.example.Problems;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Problem_290_WordPattern {
+public class Problem_290 {
     public static void main(String[] args) {
 
     }
