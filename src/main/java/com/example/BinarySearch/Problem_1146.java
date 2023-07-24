@@ -50,4 +50,4 @@ public class Problem_1146 {
  * int param_2 = obj.snap();
  * int param_3 = obj.get(index,snap_id);
  */
-}
+
