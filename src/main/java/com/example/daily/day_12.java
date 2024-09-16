@@ -3,7 +3,7 @@ package com.example.daily;
 public class day_12 {
 
   public static void main(String[] args) {
-    Solution solution = new Solution();
+    day_12Solution solution = new day_12Solution();
     String allowed = "abc";
     String[] words = {"a", "b", "c", "ab", "ac", "bc", "abc"};
     int result = solution.countConsistentStrings(allowed, words);
@@ -11,7 +11,7 @@ public class day_12 {
   }
 }
 
-class Solution {
+class day_12Solution {
   public int countConsistentStrings(String allowed, String[] words) {
     int count = 0;
     for (String word : words) {
