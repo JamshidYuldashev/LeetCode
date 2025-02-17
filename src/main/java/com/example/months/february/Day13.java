@@ -12,9 +12,15 @@ public class Day13 {
       pq.offer((long) x);
     }
     int ans = 0;
-    for (; pq.size() > 1 && pq.peek() < k; ++ans) {
+//    for (; pq.size() > 1 && pq.peek() < k; ++ans) {
+//      long x = pq.poll(), y = pq.poll();
+//      pq.offer(x * 2 + y);
+//    }
+
+    while (pq.size()>1 && pq.peek() < k) {
       long x = pq.poll(), y = pq.poll();
       pq.offer(x * 2 + y);
+      ans++;
     }
     return ans;
   }
