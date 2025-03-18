@@ -1,4 +1,4 @@
-package com.example.months.february;
+package com.example.months.feb;
 
 public class Day3 {
   public int longestMonotonicSubarray(int[] nums) {
