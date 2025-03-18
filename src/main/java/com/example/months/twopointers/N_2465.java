@@ -1,4 +1,4 @@
-package com.example.months.february.twopointers;
+package com.example.months.twopointers;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.example.months.february;
+package com.example.months.feb;
 
 import java.util.ArrayList;
 import java.util.List;

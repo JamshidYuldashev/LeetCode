@@ -1,4 +1,4 @@
-package com.example.months.february;
+package com.example.months.feb;
 
 // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/?envType=daily-question&envId=2025-02-02
 public class Day2 {
